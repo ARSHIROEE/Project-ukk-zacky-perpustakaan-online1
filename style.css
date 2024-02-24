@@ -1,0 +1,14 @@
+.card {
+    display: inline-block;
+    width: 300px; /* Atur lebar kartu sesuai kebutuhan */
+    margin: 10px; /* Atur jarak antar kartu */
+}
+
+.card-body {
+    text-align: left; /* Aligment teks ke kiri */
+}
+
+.btn {
+    margin-right: 5px; /* Atur jarak antar tombol */
+    margin-bottom: 5px; /* Atur jarak antar tombol */
+}

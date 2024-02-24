@@ -1,0 +1,66 @@
+
+.card {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd; /* garis antara baris */
+}
+
+th {
+    background-color: #f2f2f2; /* latar belakang header */
+    border-top: 2px solid #343a40; /* garis atas header */
+    border-bottom: 2px solid #343a40; /* garis bawah header */
+}
+
+td {
+    background-color: #fff; /* latar belakang sel */
+}
+
+.card-body .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-12 {
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* Additional styles */
+.card {
+    margin-top: 50px;
+}
+
+table {
+    margin-top: 20px;
+}
+.icon{
+    display: block;
+    max-height: 50px;
+    width: 100px;
+    height: 100px;
+}
+@media screen and (max-width: 600px) {
+    table {
+        overflow-x: auto;
+    }
+}
